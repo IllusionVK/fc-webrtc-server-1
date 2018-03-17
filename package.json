@@ -1,0 +1,28 @@
+{
+  "name": "fc-webrtc-server",
+  "version": "1.0.0",
+  "description": "WebRTC server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stove654/fc-webrtc-server.git"
+  },
+  "author": "stove",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stove654/fc-webrtc-server/issues"
+  },
+  "homepage": "https://github.com/stove654/fc-webrtc-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "lodash": "^4.17.5",
+    "morgan": "^1.9.0",
+    "socket.io": "^2.0.4",
+    "twilio": "^3.13.1"
+  }
+}
