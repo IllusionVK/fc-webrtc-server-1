@@ -17,8 +17,8 @@ B -- signal message --> A
 - Run server env production on Ubuntu: 
   - Install global module `pm2` [https://github.com/Unitech/pm2](https://github.com/Unitech/pm2) 
   - Type: `pm2 start index.js`
-- Run server  env production on Window doc [https://github.com/tallesl/qckwinsvc](https://github.com/tallesl/qckwinsvc)
-  
+- Run server  env production on Window doc [https://github.com/tallesl/qckwinsvc](https://github.com/tallesl/qckwinsvc) or [https://blog.cloudboost.io/nodejs-pm2-startup-on-windows-db0906328d75](https://blog.cloudboost.io/nodejs-pm2-startup-on-windows-db0906328d75)
+
 ## Files Structure
 - `package.json` manager module use
 -  `index.js` main file js
