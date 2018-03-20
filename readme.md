@@ -22,9 +22,12 @@ B -- signal message --> A
 ## Files Structure
 - `package.json` manager module use
 -  `index.js` main file js
-- `config/config.js` file constant config url, key service we used
+- `config/config.js` file constant config url, key service we used,
 - `config/express.js` config with express framework
 - `config/socketio.js` config socket io (connect, disconnect, ...)
+
+## Config Twilio
+- open file `config/config.js` and change `accountSid`, `authToken` with your account twilio
 
 ## Modules Using
 - `express` doc [https://expressjs.com/](https://expressjs.com/)
