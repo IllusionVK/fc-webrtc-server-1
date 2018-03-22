@@ -10,7 +10,7 @@ var port = process.env.PORT || 3001;
 var server = require('http').createServer(app);
 
 var socketio = require('socket.io')(server, {
-	path: '/socket.io-client'
+	path: '/rtc/socket.io-client'
 });
 
 require('./config/socketio')(socketio, app);
